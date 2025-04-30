@@ -1,7 +1,7 @@
 import { FAQExtract } from "@/stores/useDataStore";
 import { Action } from "@/stores/useConversationStore";
 
-export const AGENT_NAME = "Blossom";
+export const AGENT_NAME = "VictorIA";
 
 export const CUSTOMER_DETAILS = {
   name: "Janet Deer",

@@ -30,7 +30,7 @@ function FunctionCall({ toolCall }: ToolCallProps) {
           <Zap size={16} />
           <div className="text-sm font-medium">
             {toolCall.name && agentTools.includes(toolCall.name)
-              ? `Suggested ${formatName(toolCall.name || "")}`
+              ? `Sugerencia: ${formatName(toolCall.name || "")}`
               : toolCall.status === "completed"
               ? `Called ${formatName(toolCall.name || "")}`
               : `Calling ${formatName(toolCall.name || "")}...`}

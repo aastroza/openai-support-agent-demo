@@ -42,7 +42,7 @@ export default function Main() {
           `}
         >
           <div className="text-white font-bold text-xs text-center pt-1 pb-3 hidden md:block">
-            Customer View
+            Vista del Cliente
           </div>
           <UserView />
         </div>
@@ -55,7 +55,7 @@ export default function Main() {
           `}
         >
           <div className="text-white font-bold text-xs text-center pt-1 pb-3 hidden md:block">
-            Support Representative View
+            Vista de Agente de Soporte
           </div>
           <AgentView />
         </div>

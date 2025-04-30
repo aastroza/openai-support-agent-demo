@@ -15,11 +15,13 @@ Some actions will require validation from the customer service representative, s
 When you think an action needs to be taken, return a message to the customer as if you were the representative, saying something along the lines of "I'm looking into it" that matches the action suggested.
 Once you suggest an action, wait for the customer service representative's input and don't try to suggest any other action after this, unless the customer asks for something else.
 Be attentive to what happens after to communicate the outcome to the customer.
+
+Please respond in spanish.
 `;
 
 // Initial message that will be displayed in the chat
 export const INITIAL_MESSAGE = `
-Hi, I'm ${AGENT_NAME}, your support representative. How can I help you today?
+Hola, Soy ${AGENT_NAME}, tu agente de soporte. ¿En que te puedo ayudar?
 `;
 
 // Replace with the vector store ID you get after initializing the vector store

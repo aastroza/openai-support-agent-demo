@@ -63,7 +63,7 @@ export default function Action({
         <DialogHeader>
           <DialogTitle>{name}</DialogTitle>
           <DialogDescription>
-            Confirm the action to take to resolve the customer query
+            Confirma la acción a ejecutar para resolver el caso
           </DialogDescription>
           <DialogDescription>{functionName}</DialogDescription>
         </DialogHeader>

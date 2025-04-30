@@ -174,14 +174,14 @@ export default function Chat({ items, view, onSendMessage }: ChatProps) {
                       className="cursor-pointer flex items-center gap-1 px-3 py-1 font-medium rounded-md bg-black text-white hover:bg-zinc-800"
                     >
                       <SendIcon className="w-3 h-3" />
-                      Send now
+                      Enviar ahora
                     </div>
                     <div
                       onClick={handleEdit}
                       className="cursor-pointer flex items-center gap-1 px-3 py-1 font-medium rounded-md bg-black text-white hover:bg-zinc-800"
                     >
                       <PencilIcon className="w-3 h-3" />
-                      Edit
+                      Editar
                     </div>
                   </div>
                 </div>
@@ -209,7 +209,7 @@ export default function Chat({ items, view, onSendMessage }: ChatProps) {
                     tabIndex={0}
                     dir="auto"
                     rows={2}
-                    placeholder="Message..."
+                    placeholder="Mensaje..."
                     className="mb-2 resize-none border-0 focus:outline-none text-sm bg-transparent px-0 pb-6 pt-2"
                     value={view === "agent" ? composerText : inputMessageText}
                     onChange={(e) =>

@@ -23,18 +23,18 @@ export default function CustomerDetails() {
   return (
     <div className="flex flex-col gap-4">
       <div className="flex flex-col gap-1">
-        <DetailItem label="Name" value={customerDetails.name} />
+        <DetailItem label="Nombre" value={customerDetails.name} />
         <DetailItem
           label="ID"
           value={customerDetails.id}
           className="font-mono text-xs"
         />
         <DetailItem
-          label="# Orders"
+          label="# Pedidos"
           value={customerDetails.orderNb.toString()}
         />
         <DetailItem
-          label="Signup Date"
+          label="Fecha de registro"
           value={customerDetails.signupDate.toString()}
         />
       </div>

@@ -20,7 +20,7 @@ function Article({
         <Link href={link} target="_blank">
           <div className="flex items-center  text-[#ED6A5E] gap-1">
             <div className="text-xs font-medium">
-              {type === "knowledge_base" ? "INTERNAL" : "PUBLIC FAQ"}
+              {type === "knowledge_base" ? "INTERNO" : "PREGUNTAS FRECUENTES"}
             </div>
             <SquareArrowOutUpRight size={16} />
           </div>

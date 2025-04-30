@@ -4,7 +4,7 @@ import { Action } from "@/stores/useConversationStore";
 export const AGENT_NAME = "VictorIA";
 
 export const CUSTOMER_DETAILS = {
-  name: "Janet Deer",
+  name: "Janet Ciervo",
   id: "cus_28X44",
   orderNb: 8,
   signupDate: "2023-11-28",
@@ -14,29 +14,29 @@ export const DEFAULT_ACTION: Action = {
   name: "create_ticket",
   parameters: {
     user_id: CUSTOMER_DETAILS.id,
-    type: "other",
-    details: "Need more help with the request",
+    type: "otro",
+    details: "Necesita más ayuda con la solicitud",
   },
 };
 
 export const DEFAULT_ARTICLES: FAQExtract[] = [
   {
-    title: "Interactions guidelines",
-    content: `Tone, Empathy, and Professionalism:
-      As a representative, you are the voice of our brand. Always:
-      - Be polite, patient, and empathetic.
-      - Assume the customer's intent is positive, even if they express frustration.
-      - Acknowledge and validate their concerns before providing solutions.
+    title: "Lineamientos de interacción",
+    content: `Tono, Empatía y Profesionalismo:
+      Como representante, eres la voz de nuestra marca. Siempre:
+      - Sé amable, paciente y empático.
+      - Asume que la intención del cliente es positiva, incluso si expresa frustración.
+      - Reconoce y valida sus preocupaciones antes de proporcionar soluciones.
       `,
     link: "/kb?section=interactions_guidelines",
     type: "knowledge_base",
     score: 0.9,
   },
   {
-    title: "Customer support chat",
-    content: `If you have any questions or need any help, you can contact us through the customer support chat.
-    A customer support representative will help you with your questions or concerns.
-    Please note that our agents are available from Monday to Saturday, 9am to 6pm.
+    title: "Chat de atención al cliente",
+    content: `Si tienes alguna pregunta o necesitas ayuda, puedes contactarnos a través del chat de atención al cliente.
+    Un representante de atención al cliente te ayudará con tus preguntas o inquietudes.
+    Ten en cuenta que nuestros agentes están disponibles de lunes a sábado, de 9am a 6pm.
     `,
     link: "/faq?section=help_chat",
     type: "faq",
@@ -53,10 +53,10 @@ const getDate = (daysAgo: number) => {
 };
 
 export const USER_INFO = {
-  name: "Janet Deer",
-  email: "janet.deer@gmail.com",
+  name: "Janet Ciervo",
+  email: "janet.ciervo@gmail.com",
   phone: "+1234567890",
-  address: "123 Main St, Anytown, USA",
+  address: "Calle Principal 123, Ciudad Cualquiera, Chile",
   order_history: [
     "ORD1001",
     "ORD1002",
@@ -72,25 +72,25 @@ export const DEMO_ORDERS = [
   {
     id: "ORD1001",
     date: getDate(1),
-    status: "pending",
+    status: "pendiente",
     items: [
-      { product_id: "P003", name: "Smart Watch", quantity: 1, price: 149.99 },
+      { product_id: "P003", name: "Reloj Inteligente", quantity: 1, price: 149.99 },
     ],
   },
   {
     id: "ORD1002",
     date: getDate(8),
-    status: "completed",
+    status: "completado",
     items: [
       {
         product_id: "P001",
-        name: "Wireless Headphones",
+        name: "Audífonos Inalámbricos",
         quantity: 1,
         price: 99.99,
       },
       {
         product_id: "P002",
-        name: "Portable Charger",
+        name: "Cargador Portátil",
         quantity: 1,
         price: 39.99,
       },
@@ -99,12 +99,12 @@ export const DEMO_ORDERS = [
   {
     id: "ORD1003",
     date: getDate(24),
-    status: "shipped",
+    status: "enviado",
     tracking_number: "TRK123456789",
     items: [
       {
         product_id: "P004",
-        name: "Bluetooth Speaker",
+        name: "Parlante Bluetooth",
         quantity: 2,
         price: 59.99,
       },
@@ -113,28 +113,28 @@ export const DEMO_ORDERS = [
   {
     id: "ORD1004",
     date: getDate(28),
-    status: "cancelled",
-    cancellation_reason: "Customer requested cancellation before processing",
+    status: "cancelado",
+    cancellation_reason: "Cliente solicitó cancelación antes del procesamiento",
   },
   {
     id: "ORD1005",
     date: getDate(44),
-    status: "refunded",
-    refund_status: "processing",
+    status: "reembolsado",
+    refund_status: "procesando",
     refund_amount: 149.99,
     items: [
-      { product_id: "P005", name: "Laptop Stand", quantity: 1, price: 149.99 },
+      { product_id: "P005", name: "Soporte para Laptop", quantity: 1, price: 149.99 },
     ],
   },
   {
     id: "ORD1006",
     date: getDate(96),
-    status: "delivered",
+    status: "entregado",
     return_initiated: true,
     items: [
       {
         product_id: "P006",
-        name: "Ergonomic Keyboard",
+        name: "Teclado Ergonómico",
         quantity: 1,
         price: 89.99,
       },
@@ -143,12 +143,12 @@ export const DEMO_ORDERS = [
   {
     id: "ORD1007",
     date: getDate(108),
-    status: "completed",
-    complaint: "Order delivered with damaged product",
+    status: "completado",
+    complaint: "Pedido entregado con producto dañado",
     items: [
       {
         product_id: "P007",
-        name: "Noise Cancelling Earbuds",
+        name: "Auriculares con Cancelación de Ruido",
         quantity: 1,
         price: 129.99,
       },

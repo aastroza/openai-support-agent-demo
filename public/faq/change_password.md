@@ -1,8 +1,8 @@
-## ¿Cómo puedo cambiar mi contraseña en GeoVictoria?
+## ¿Cómo puedo cambiar mi contraseña?
 
 Para garantizar la seguridad de su cuenta, le recomendamos actualizar su contraseña periódicamente. Para cambiar su contraseña, siga estos sencillos pasos:
 
-1. Ingrese a la plataforma a través de [www.geovictoria.com](https://www.geovictoria.com)
+1. Ingrese a la plataforma a través de [www.misitio.com](https://www.misitio.com)
 2. Acceda con su usuario correspondiente al identificador (RUT/DNI/CC/NIP) y su contraseña actual (por defecto los 4 primeros dígitos de su identificador)
 3. En su primer inicio de sesión, el sistema le solicitará automáticamente modificar su contraseña
 4. Si ya ha iniciado sesión anteriormente y desea cambiar su contraseña, busque la opción "Modificación de contraseña"
